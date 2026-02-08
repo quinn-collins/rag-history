@@ -46,6 +46,8 @@ type Application struct {
 	qdrant *qdrant.Client
 }
 
+// docker run -p 6333:6333 -p 6334:6334 qdrant/qdrant
+
 func main() {
 	client, err := qdrant.NewClient(&qdrant.Config{
 		Host: QdrantHost,
