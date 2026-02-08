@@ -17,6 +17,15 @@
 
 
 # Transformer Architecture
+- Allows us to compress word embeddings
+- Introduces two kinds of attention
+  - One is attention between input tokens and output tokens and how they relate
+  - Two is self-attention which is "what is the relationship between the words?"
+- Improved subword tokenization
+- Allows injecting memory tokens into streams
+- Introduces parallelizable training
+- Fine-tuning and optimization techniques
+- Cross-lingual, multi-lingual and multi-task learning
 
 # Prompt Engineering
 
